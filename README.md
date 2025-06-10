@@ -1,6 +1,6 @@
 # CycleGAN-Based Lunar Surface Detail Extraction from Permanently Shadowed Regions
 
-![Lunar PSR Example](https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/shadowcam_shackleton_crater.jpg)  
+![Lunar PSR Example]([https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/shadowcam_shackleton_crater.jpg](https://pplx-res.cloudinary.com/image/upload/v1749582669/pplx_project_search_images/5af0e4823846da15e2a86f46bf29b3641d360381.jpg))  
 *Shackleton Crater's permanently shadowed floor, imaged by NASA's ShadowCam. [Credit: NASA/KARI/ASU]*
 
 ---
@@ -94,7 +94,7 @@ Our approach enables the generation of plausible surface details in PSRs, reveal
 | Raw PSR Image | CycleGAN-Enhanced |
 |:-------------:|:----------------:|
 | ![Raw PSR](https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/shadowcam_shackleton_crater.jpg) | ![Enhanced Example](https://neptune.ai/wp-content/uploads/2023/09/cyclegan_zebra_horse.jpg) |
-| *Raw ShadowCam image of Shackleton Crater* | *CycleGAN-style translation result (for illustration)* |
+| *Raw ShadowCam image* | *CycleGAN-style translation result* |
 
 > *Note: Second image is a generic CycleGAN example (zebra→horse) for illustration; insert your own lunar PSR enhancement results here.*
 
