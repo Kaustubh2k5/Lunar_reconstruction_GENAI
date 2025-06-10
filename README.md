@@ -93,7 +93,7 @@ Our approach enables the generation of plausible surface details in PSRs, reveal
 
 | Raw PSR Image | CycleGAN-Enhanced |
 |:-------------:|:----------------:|
-| ![Raw PSR](./images/Screenshot 2025-06-11 011904.png) | ![Enhanced Example](https://neptune.ai/wp-content/uploads/2023/09/cyclegan_zebra_horse.jpg) |
+| ![Raw PSR](./images/raw.png) | ![Enhanced Example](./images/enhanced.png) |
 | *Raw ShadowCam image* | *CycleGAN-style translation result* |
 
 > *Note: Second image is a generic CycleGAN example (zebra→horse) for illustration; insert your own lunar PSR enhancement results here.*
