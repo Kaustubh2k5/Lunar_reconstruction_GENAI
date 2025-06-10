@@ -1,6 +1,6 @@
 # CycleGAN-Based Lunar Surface Detail Extraction from Permanently Shadowed Regions
 
-![Lunar PSR Example]([https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/shadowcam_shackleton_crater.jpg](https://pplx-res.cloudinary.com/image/upload/v1749582669/pplx_project_search_images/5af0e4823846da15e2a86f46bf29b3641d360381.jpg))  
+![Lunar Surface](./images/6b052ed0bb2c3024dd2e759e37bc642724ed6b6d.jpg)  
 *Shackleton Crater's permanently shadowed floor, imaged by NASA's ShadowCam. [Credit: NASA/KARI/ASU]*
 
 ---
