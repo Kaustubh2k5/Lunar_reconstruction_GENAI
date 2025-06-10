@@ -96,7 +96,7 @@ Our approach enables the generation of plausible surface details in PSRs, reveal
 | ![Raw PSR](./images/raw.png) | ![Enhanced Example](./images/enhanced.png) |
 | *Raw ShadowCam image* | *CycleGAN-style translation result* |
 
-> *Note: Second image is a generic CycleGAN example (zebra→horse) for illustration; insert your own lunar PSR enhancement results here.*
+> *Note: Results were obtained only after 1 epoch(ran out of colab compute, futher training with additional raw vs enhanced dataset will allow for better resuls*
 
 ---
 
