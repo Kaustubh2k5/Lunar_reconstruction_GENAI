@@ -17,7 +17,7 @@ Our approach leverages **unpaired image-to-image translation** to learn mappings
 
 - **Permanently Shadowed Regions (PSRs):**  
   Deep craters near the lunar poles that have not seen sunlight in over two billion years, remaining some of the coldest and least explored places in the solar system.  
-  ![Lunar South Pole PSRs](https://moon.nasa.gov/system/resources/detail_files/97_psr_annotated.jpg)  
+  ![Lunar South Pole PSRs](./images/59788b1d1a336740181fa3544895de8999adf1ab.jpg)  
   *Annotated map of PSRs at the lunar south pole. [Credit: NASA]*
 
 - **Scientific importance:**  
