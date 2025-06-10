@@ -72,3 +72,50 @@ Our implementation uses a sophisticated loss strategy to balance realism and sci
 - **Identity Loss:** Same components as above, to preserve input characteristics.
 
 **Total Loss Formula:**
+Total_Loss = Adversarial_Loss + λ_cycle * Cycle_Loss + λ_identity * Identity_Loss
+
+Each component is a weighted sum of L1, perceptual, and SSIM losses.
+
+---
+
+## Training Methodology
+
+- **Mixed Precision Training:** Efficient memory usage and faster computation.
+- **Gradient Clipping:** Prevents exploding gradients.
+- **Custom Training Loops & Image Buffers:** Stabilize GAN training.
+- **PatchGAN Discriminators:** Focus on local image patches for fine-grained realism.
+
+---
+
+## Results: Seeing Into the Shadows
+
+Our approach enables the generation of plausible surface details in PSRs, revealing features previously invisible in raw images.
+
+| Raw PSR Image | CycleGAN-Enhanced |
+|:-------------:|:----------------:|
+| ![Raw PSR](https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/shadowcam_shackleton_crater.jpg) | ![Enhanced Example](https://neptune.ai/wp-content/uploads/2023/09/cyclegan_zebra_horse.jpg) |
+| *Raw ShadowCam image of Shackleton Crater* | *CycleGAN-style translation result (for illustration)* |
+
+> *Note: Second image is a generic CycleGAN example (zebra→horse) for illustration; insert your own lunar PSR enhancement results here.*
+
+---
+
+## Scientific Applications
+
+- **Enhanced PSR Mapping:** Reveals plausible surface features for mission planning and hazard assessment.
+- **Geological Analysis:** Enables studies of cratering, regolith, and boulder distributions in previously inaccessible regions.
+- **Resource Assessment:** Assists in identifying potential water ice and volatile deposits for future missions.
+
+---
+
+## Future Directions
+
+- **Full Self-Attention/Transformer Integration:** For improved global feature modeling.
+- **Multi-Modal Data Fusion:** Incorporate hyperspectral and topographical data.
+- **Real-Time Inference:** Optimize for deployment on lunar missions and edge devices.
+-**Additional data collection and training: creating more data by simulating the raw images artificially using gaussian and speckle noise**
+
+---
+
+*For code, model details, and usage instructions, see the repository files.*
+
