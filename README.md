@@ -43,7 +43,7 @@ Our approach leverages **unpaired image-to-image translation** to learn mappings
 - **Cycle Consistency:**  
   Ensures that translating an image from one domain to another and back should recover the original.
 
-![CycleGAN Schematic](./image/0_S5gn5i6UhfyoRr9S.png)  
+![CycleGAN Schematic](./images/0_S5gn5i6UhfyoRr9S.png) 
 *CycleGAN architecture: two generators and two discriminators with cycle consistency loss. [Source: CycleGAN paper]*
 
 ---
